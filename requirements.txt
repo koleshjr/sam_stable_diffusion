@@ -7,4 +7,6 @@ onnx
 gradio
 diffusers
 torch
+transformers
 accelerate
+
