@@ -16,7 +16,7 @@ predictor = SamPredictor(sam)
 
 pipe = StableDiffusionInpaintPipeline.from_pretrained(
 stable_diffusion_inpaint_model,
-torch_dtype= torch.float16, #save some memory
+torch_dtype= torch.float16, #save some memory #use this when the device is gpu
 )
 pipe = pipe.to(device)
 selected_pixels =[]
